@@ -43,6 +43,7 @@ nav li a:hover {
 
 
 img.tab{
+  width: 75%;
   max-width: 750px;
   min-width: 350px;
 }
