@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>	
+			<link rel="stylesheet" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			<div>
+				{{ page.songtitle }}<br />
+				{{ page.artist }}<br />
+				{{ page.album }}<br />
+				{{ page.releaseyear }}<br />
+			</div>
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li>email</li>
+	        		<li>----</li>
+				</ul>
+			</footer>
+		</body>
+	</html>
