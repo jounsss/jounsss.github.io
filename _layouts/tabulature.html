@@ -3,6 +3,7 @@
 		<head>
 			<title>{{ page.title }}</title>	
 			<link rel="stylesheet" href="/css/main.css">
+			<link rel="stylesheet" href="/css/tabulature.css">
 		</head>
 		<body>
 			<nav>
@@ -11,11 +12,10 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			<div>
-				{{ page.songtitle }}<br />
-				{{ page.artist }}<br />
-				{{ page.album }}<br />
-				{{ page.releaseyear }}<br />
+			<div class="songinfo">
+				<h2>{{ page.songtitle }}</h2><br />
+				<b>{{ page.artist }}</b><br />
+				{{ page.album }} - git{{ page.releaseyear }}<br />
 			</div>
 			{{ content }}
 			

@@ -1,0 +1,10 @@
+.songinfo {
+    
+}
+
+img.tab{
+    display: block;
+    width: 75%;
+    max-width: 750px;
+    min-width: 350px;
+  }
