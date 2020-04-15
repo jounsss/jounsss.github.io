@@ -40,3 +40,9 @@ nav li a:hover {
   background-color: #555;
   color: white;
 }
+
+
+img.tab{
+  max-width: 750px;
+  min-width: 350px;
+}
