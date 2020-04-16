@@ -3,13 +3,10 @@ layout: default
 title: jounsss - tabs
 ---
 <h1>Tabs</h1>
-<a href="sign.html">Sign of the Southern Cross</a><br >
-<a href="falling.html">Falling of the Edge of the World</a>
-
 <ul>
     {% for page in site.pages %}
         {% if page.category contains 'tabulature' %}
             <li><a href="{{ page.url }}">{{ page.songtitle }}</a></li>
         {% endif %}
     {% endfor %}
-  </ul>
+</ul>
