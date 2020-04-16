@@ -8,8 +8,8 @@ title: jounsss - tabs
 
 <ul>
     {% for page in site.pages %}
-
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-
-    {% endfor %}  <!-- page -->
+        {% if page.categories contains 'tabulature' %}
+            <li><a href="{{ page.url }}">{{ page.songtitle }}</a></li>
+        {% endif %}
+    {% endfor %}
   </ul>
