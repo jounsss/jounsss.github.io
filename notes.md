@@ -6,5 +6,7 @@
 
 # Tabs todo
  - Deep Purple - Above and Beyond
- - Deep Purple - Silver Tongue
+ - Deep Purple - 
  - Deep Purple - Simple Song
+ - Opeth - Coil
+ - Opeth (acoustic parts)
